@@ -23,7 +23,8 @@ This project processes WhatsApp conversation data to:
 │   ├── risk_scorer.py               # Health risk scoring module
 │   └── __init__.py
 ├── data/
-│   └── health_ai_whatsapp_100_conversations_long.txt  # Conversation data
+│   ├── health_ai_whatsapp_100_conversations_long.txt  # Conversation data
+│   ├── NDoH-guidelines.pdf          # Health guidelines document
 ├── notebooks/
 │   └── analysis.ipynb               # Jupyter notebook for EDA
 ├── pyproject.toml                   # Project dependencies and metadata
@@ -112,6 +113,7 @@ RAG-based recommendation engine that leverages conversation context and health d
 
 The project includes sample WhatsApp conversation data:
 - **[`data/health_ai_whatsapp_100_conversations_long.txt`](data/health_ai_whatsapp_100_conversations_long.txt)** - 100 extended health-related WhatsApp conversations
+- **[`data/NDoH-guidelines.pdf`](data/NDoH-guidelines.pdf)** - Health guidelines document used for reference in recommendations and treatment plans.
 
 ## Development
 
